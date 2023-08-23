@@ -82,6 +82,11 @@
     "superagent": "^7.0.2",
     "superagent-prefix": "0.0.2"
   },
+  "overrides": {
+    "formidable": "^2.1.2",
+    "superagent": "^7.0.2",
+    "core-js": "^3.32.1"
+  },
   "browser": {
     "http": "stream-http",
     "https": "stream-http"
