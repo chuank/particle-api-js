@@ -82,6 +82,12 @@
     "superagent": "^7.0.2",
     "superagent-prefix": "0.0.2"
   },
+  "overrides": {
+    "babel-runtime": {
+      ".": "^6.26.0",
+      "core-js": "^3.x"
+    }
+  },
   "browser": {
     "http": "stream-http",
     "https": "stream-http"
