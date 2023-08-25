@@ -76,11 +76,16 @@
     "watchify": "^3.7.0"
   },
   "dependencies": {
-    "babel-runtime": "@next",
+    "babel-runtime": "^6.26.0",
     "form-data": ">2.2.0",
     "stream-http": "^3.2.0",
     "superagent": "^7.0.2",
     "superagent-prefix": "0.0.2"
+  },
+  "overrides": {
+    "babel-runtime": {
+      "core-js": "^3.x"
+    }
   },
   "browser": {
     "http": "stream-http",
@@ -88,6 +93,6 @@
   },
   "engines": {
     "node": ">=12.x",
-    "npm": "^9.x"
+    "npm": "8.x"
   }
 }
